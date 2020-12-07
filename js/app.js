@@ -37,4 +37,15 @@ $(function() {
         }, 500)
     });
 
+    // UP BUTTON
+
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 100) {
+            $('.copyright__btn').is(':hidden');
+            $('.copyright__btn').css({opacity : 1}).fadeIn('slow');
+        } else { 
+            $('.copyright__btn').stop(true, false).fadeOut('fast'); 
+        }
+    });
+
 });

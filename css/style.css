@@ -555,9 +555,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 80px;
     border: 1px solid #59BD5A;
     border-radius: 2px;
-    position: absolute;
+    position: fixed;
+    opacity: 0;
     bottom: 6%;
     right: 0%;
+    z-index: 1000;
 }
 
 .copyright__btn i {
