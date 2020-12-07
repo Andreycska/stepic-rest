@@ -560,6 +560,12 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 6%;
     right: 0%;
     z-index: 1000;
+    transition: background .2s linear,border .2s linear;
+}
+
+.copyright__btn:hover {
+    background-color: #2c802d;
+    border: 1px solid #2c802d;
 }
 
 .copyright__btn i {
